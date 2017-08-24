@@ -57,7 +57,7 @@
     
 /* For large phones to small tablets from 481px to 767px*/
 @media only screen and (max-width: 767px){
-    body { font-size: 16px}
+    body { font-size: 18px}
     section { padding: 30px 0;}
     
     h1 {font-size: 180%}
@@ -75,6 +75,25 @@
         position: absolute;
     }
     
+    .main-menu-name {
+        align-content: center;
+        padding-top: 48px;
+        padding-left: 90px;
+        position: absolute;
+        font-size: 0px;
+        font-weight: 200;
+    }
+    
+    
+    .sticky .logo { 
+        display: none;
+        height: 50px;
+    }
+    .sticky .logo-black { 
+        display: block; 
+        height: 50px;
+    }
+
     .main-nav {
         float: left;
         margin: 10px 0;
@@ -84,7 +103,7 @@
     .main-nav li {
         display: block;
         padding: 0 0 10px;
-        font-size: 120%;
+        font-size: 100%;
         border: 0px;
     }
 
@@ -103,7 +122,7 @@
     
    .sticky  .main-nav li {
         display: block;
-        font-size: 120%;
+        font-size: 100%;
         border: 0px;
     }
     
@@ -122,8 +141,8 @@
         color: #555;
     }    
     
-    .feature-detail { font-size: 95%; }
-
+    .services-header {height: auto}
+    
     .long-copy {
         width: 100%;
         margin-left: 0%;

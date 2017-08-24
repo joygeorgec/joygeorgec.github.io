@@ -12,7 +12,7 @@ html,
 body {
     background-color: #fff;
     color: dimgrey;
-    font-family: 'lato', 'Arial', sans-serif;
+    font-family: 'Abel', 'Slabo 27px', 'Roboto Condensed', 'lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -35,12 +35,11 @@ h1,h2,h3 {
 
 h1 {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: orange;
     font-size: 200%;
     word-spacing: 4px;    
     letter-spacing: 1px;
-    margin-bottom: 70px;
 }
 
 h2 {
@@ -218,6 +217,15 @@ header {
     height: 70vh;
 }
 
+.main-menu-name {
+    align-content: center;
+    padding-top: 48px;
+    padding-left: 90px;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 200;
+}
+
 .hero-text-box {
     position: relative;
     width: 80%;
@@ -228,7 +236,7 @@ header {
 }
 
 .logo {
-    height: 90px;
+    height: 70px;
     width: auto;
     margin: 10px 0;
     float: left;
@@ -236,7 +244,7 @@ header {
 
 .logo-black {
     display: none;
-    height: 50px;
+    height: 70px;
     width: auto;
     float: left;
     margin-top: 5px;
@@ -247,10 +255,10 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     color: #39a75b;
-    font-weight: 400;
-    
-
-}
+    font-size: 19px;
+    position: absolute;
+    z-index: 1;
+ }
 
 .main-nav {
     float: right;        
@@ -267,9 +275,8 @@ header {
 .main-nav li a:visited {
     color: #39a75b;
     padding-bottom: 10px;
-    font-size: 75%;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
@@ -290,28 +297,36 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #f0f0f0;
+    font-size: 19px;
     z-index: 9999;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo { 
+    display: none;
+    height: 70px;
+}
+.sticky .logo-black { 
+    display: block; 
+    height: 70px;
+}
 
-.sticky .main-nav { margin-top: 15px; }
+.sticky .main-nav { margin-top: 30px; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     color: #555;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 /* Mobile navigation */
 .mobile-nav {
     float: right;
     margin-top: 20px;
-    font-size: 130%;
+    font-size: 110%;
     color: #39a75b;
     display: none;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .contact-homepage{
@@ -327,17 +342,6 @@ header {
     font-size: 120%;
     color: #39a75b;
     margin-bottom: 2px;
-}
-/*--------------------------------*/
-/*Features Section*/
-/*--------------------------------*/
-.section-features {
-    background-color: #fff;
-}
-
-.feature-detail {
-    line-height: 145%;
-    font-size: 80%;    
 }
 /*--------------------------------*/
 /*Meals Section*/

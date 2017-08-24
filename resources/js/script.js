@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     /*Sticky navigation*/
-    $('.js--section-services').waypoint(function(direction) {
+    $('.js--section-profile').waypoint(function(direction) {
         if (direction == "down") 
         {
             $('nav').addClass('sticky');    
@@ -76,7 +76,7 @@ $(document).ready(function () {
         var nav = $('.js--main-nav');
         var icon = $('.js--mobile-nav i');
         
-        nav.slideToggle(2000);
+        nav.slideToggle(200);
  
         if (icon.hasClass('ion-navicon-round')) {
             icon.addClass('ion-close-round');
@@ -90,20 +90,13 @@ $(document).ready(function () {
     });
     
     
-    /*
     var waypoints = $('#handler-first').waypoint(function(direction) {
       notify(this.element.id + ' hit 25% from top of window') 
     }, {
       offset: '25%'
     })    
-    */
-
-    /*    
-    $('h1').click(function () {
-        $(this).css('background-color', '#ff0000');
-    })
-    */    
-
+    
+        
     $("#select1").change(function() {
       if ($(this).data('options') === undefined) {
         /*Taking an array of all options-2 and kind of embedding it on the select1*/
