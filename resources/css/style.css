@@ -649,8 +649,12 @@ cite{
 /*--------------------------------*/
 
 .contact-info {
-    background-color: #ebebeb
+    background-color: #ebebeb;    
 }
+
+.contact-address { width: 400px;}
+
+.contact-address h3{align-items:  }
 
 .contact-address li{
     padding-left: 150px;
@@ -658,7 +662,10 @@ cite{
 }
 
 .address-name {
-    padding-left: 150px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #39a75b;
+    margin-bottom: 10px;
 }
 
 .contact-info-mobile {
