@@ -25,6 +25,13 @@ $(document).ready(function () {
     });
     
 
+    $('.js--scroll-to-sitename').click(function(){
+        $('html, body').animate({scrollTop: $('.js-section-home').offset().top}, 500);    
+    });
+    
+
+    
+    
     /*Scroll with menu*/ 
     $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
