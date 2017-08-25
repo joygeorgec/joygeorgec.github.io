@@ -326,6 +326,14 @@
         height: 50px
     }
  
+    .contact-address li{
+        padding-left: 30px;
+    }
+
+    .contact-info-mobile {
+        padding-left: 30px;
+    }
+
     .feature-detail { font-size: 95%; }
     
     .city-feature{ font-size: 90%; }
