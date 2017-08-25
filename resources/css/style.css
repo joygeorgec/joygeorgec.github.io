@@ -12,7 +12,7 @@ html,
 body {
     background-color: #fff;
     color: dimgrey;
-    font-family: 'Abel', 'Slabo 27px', 'Roboto Condensed', 'lato', 'Arial', sans-serif;
+    font-family: 'Roboto Condensed', 'Abel', 'Slabo 27px', 'lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -34,8 +34,8 @@ h1,h2,h3 {
 }
 
 h1 {
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     color: orange;
     font-size: 200%;
     word-spacing: 4px;    
@@ -219,26 +219,31 @@ header {
 
 .main-menu-name {
     align-content: center;
-    padding-top: 48px;
+    padding-top: 30px;
     padding-left: 90px;
     position: absolute;
     font-size: 22px;
     font-weight: 200;
 }
-
+    
 .hero-text-box {
-    position: relative;
+    position: absolute;
+    padding-top: 150px;
     width: 80%;
-    top: 40%;
+    top: 30%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
+.hero-btn-box {
+    padding-top: 30px;
+}
+
 .logo {
     height: 70px;
     width: auto;
-    margin: 10px 0;
+    margin: 5px 0;
     float: left;
 }
 
@@ -263,7 +268,7 @@ header {
 .main-nav {
     float: right;        
     list-style: none;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .main-nav li{
@@ -304,18 +309,19 @@ header {
 .sticky .logo { 
     display: none;
     height: 70px;
+    float: left;
 }
 .sticky .logo-black { 
     display: block; 
     height: 70px;
 }
 
-.sticky .main-nav { margin-top: 30px; }
+.sticky .main-nav { margin-top: 35px; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     color: #555;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 /* Mobile navigation */
@@ -621,7 +627,7 @@ cite{
 /*Pay Online*/
 /*--------------------------------*/
 .pay-section {
-    background-color: #ebebeb;
+    background-color: #fff;
 }
 
 .pay-online {
@@ -638,6 +644,33 @@ cite{
     height: 450px;
 }
 
+/*--------------------------------*/
+/* Contact Information */
+/*--------------------------------*/
+
+.contact-info {
+    background-color: #ebebeb
+}
+
+.contact-address li{
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+.address-name {
+    padding-left: 150px;
+}
+
+.contact-info-mobile {
+    padding-left: 150px;
+}
+
+/*--------------------------------*/
+/*Feedback gform*/
+/*--------------------------------*/
+.gform-container {
+    text-align: center;
+}
 
 /*--------------------------------*/
 /*Message Form*/
