@@ -120,7 +120,7 @@
     
     .main-nav {
         float: left;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 25px;
     }
     
@@ -136,12 +136,14 @@
         font-size: 100%;
     }
     
-    .sticky .main-nav { margin-top: 10px; }
+    .sticky .main-nav { 
+        margin-left: 60px;
+    }
 
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0; }
     .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; }
+    .sticky .mobile-nav-icon i { color: var(--themeColor) }
     
     
     
@@ -166,6 +168,12 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+
+    .customer-note {
+        font-size: 100%;
+        height: 25px;
+        padding-top: 2px;
+    }
 
     .section-cities {
         padding-top : 10px;
@@ -206,5 +214,22 @@
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+
+    .customer-note {
+        font-size: 80%;
+        height: 20px;
+        padding-top: 2px;
+    }
+
+    .main-tag img {
+        width: 40%;
+    }
+
+    .menu-header img {
+        width: 50%;
+        padding-left: 10%;
+        padding-right: 10%;        
+    }
+
 }
 
